@@ -1,8 +1,8 @@
 defmodule PlugCacheControl.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/krasenyp/plug_cache_control"
-  @version "1.1.0"
+  @source_url "https://github.com/tanguilp/plug_cache_control/"
+  @version "1.1.1"
 
   def project do
     [
@@ -47,7 +47,7 @@ defmodule PlugCacheControl.MixProject do
 
   defp package do
     [
-      maintainers: ["Krasen Penchev"],
+      maintainers: ["Krasen Penchev", "Tangui"],
       licenses: ["Apache-2.0"],
       links: %{"GitHub" => @source_url},
       files: ~w(.formatter.exs mix.exs README.md lib)
