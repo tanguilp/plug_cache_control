@@ -57,7 +57,7 @@ defmodule PlugCacheControl.Header do
   @doc """
   Puts a value of a directive in the header struct.
   """
-  @spec put(t(), Utils.directive(), term()) :: t()
+  @spec put(t(), PlugCacheControl.Helpers.directive_opt(), term()) :: t()
   def put(%__MODULE__{} = header, directive, value) do
     do_put(header, directive, value)
   end
