@@ -2,7 +2,7 @@ defmodule PlugCacheControl.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/tanguilp/plug_cache_control/"
-  @version "1.1.1"
+  @version "1.1.2"
 
   def project do
     [
